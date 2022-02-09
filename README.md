@@ -22,4 +22,10 @@ arm-none-eabi-g++ --version
 #### SHOULD GİVE YOU --------->    
   /opt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc
 
+############ TESTING 
+  
+arm-none-eabi-gcc --specs=rdimon.specs main.c -o main
+  
+file main
+
   
